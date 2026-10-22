@@ -1,0 +1,62 @@
+body {
+  background-color: var(--color-secundario);
+  font-family: var(--fuente-base);
+  margin: 30px;
+}
+header {
+  padding: 50px;
+}
+:root {
+  --color-principal: #a45ab4;
+  --color-secundario: #f4d9ec;
+  --fuente-base: Arial, sans-serif;
+}
+h1 {
+  color: var(--color-principal);
+}
+nav a {
+  color: var(--color-principal);
+}
+nav a:hover {
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px solid var(--color-principal);
+  border-radius: 15px;
+  gap: 10px;
+  max-width: 400px;
+}
+input,
+select {
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+button {
+  background-color: var(--color-principal);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#contacto,
+#inicio,
+#sobre-mi {
+  color: var(--color-principal);
+}
+.subtitulo {
+  color: var(--color-principal);
+}
